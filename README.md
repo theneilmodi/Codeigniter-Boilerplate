@@ -1,5 +1,5 @@
-# Codeigniter-
-Codeigniter Boilerplate (Facebook Login)
+#Codeigniter-Boilerplate
+
 
 ##Summary
 Simple login/logout, displays basic fb information. See application/controllers for the fb login stuff 
