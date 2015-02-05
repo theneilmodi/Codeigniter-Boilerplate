@@ -1,0 +1,133 @@
+@import "projectplanner.less";
+
+
+@width : 100%;
+
+@media (max-width: 767px) {
+
+.error{
+
+  margin-bottom: 20px;
+} 
+
+.data{
+	margin-left: 0px;
+    margin-top: 10%;
+
+	
+
+	.app-curtain{
+		padding-top : 10px;
+        padding-left: 20px;
+		padding-right: 20px;
+
+
+        h2 {
+             font-size:28px;
+             }
+
+    
+
+		.item-section { 
+                        
+    
+                    .item{
+                        	padding-bottom  : 10px;
+                          
+
+                            p{
+                                font-size: 13px;
+                            }    
+
+                            input.inpt{
+                            padding-left:10px;
+                            height: 30px;
+                            width:@width;
+                            font-size:13px;
+                            }  
+
+                            
+
+                            .profile-container{
+                                    background-color: #e6e8e9;                                    
+                                    padding:10px;
+                                    width:@width;
+                                    height: auto;   
+                              }
+
+                              #addProfile{
+                                    background-color: #e6e8e9;
+                                    width: @width;
+                                    border : 0px;
+                                    padding: 15px;
+                                    font-size: 18px;
+                                    font-weight: normal;
+                                    &:hover{
+                                        background-color: #d9dadb;
+                                    }
+                                }
+
+                            .input-group{ 
+                              width:100%;
+
+                                .input-group-addon{       
+                                        select.form-control{
+                                            height:20px;
+                                            width:auto;
+                                            box-shadow:none;
+                                            font-size:13px;
+                                        }          
+                                }
+                                input.form-control{
+                                    height:30px;
+                                    width:@width;
+                                    font-size:13px;
+                                    &.second{
+                                                width: @width;
+                                            }
+                                }
+                                textarea.form-control{
+                                  width:@width;
+                                  font-size:13px;
+                                }
+                            } 
+
+
+                            .control-select{
+                                    select.form-control{
+                                        width: @width;
+                                        height: 30px;
+                                        box-shadow:none;
+                                        font-size:14px;
+                                    }
+                                } 
+
+                            textarea.inpt{
+                              width:@width;
+                            }             
+                    }
+
+		}
+	}
+}
+
+}
+
+// iPad portrait
+@media (min-width: 768px) and (max-width: 1199px){
+
+
+  .sidebar {
+    width:30%;
+  }
+  .data{
+    margin-left: 35%;
+  }
+
+
+}
+
+
+
+
+
