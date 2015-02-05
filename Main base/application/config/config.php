@@ -19,7 +19,7 @@ if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER
     $protocol = 'https';
 }
 //$config['base_url']	= $protocol."://".$_SERVER['HTTP_HOST']."/undernotes/";
-$config['base_url']	= "http://localhost/undernotes/";
+$config['base_url']	= "http://localhost/yourtitle/";
 //$config['base_url'] = '';
 /*
 |--------------------------------------------------------------------------
