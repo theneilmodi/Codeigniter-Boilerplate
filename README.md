@@ -1,14 +1,7 @@
 #Codeigniter-Boilerplate
 
-
-##Summary
-Simple login/logout, displays basic fb information. See application/controllers for the fb login stuff 
-
-**Modify application/config/facbook.php appropriately**
+**Modify yourtitle/application/config/config.php, insert your own title (same as main folder name)**
 
 ```php
-<?php
- $config['appId'] = '568409366578716';
- $config['secret'] = '65d140dfff99aac47281af9505c24560';
-?>
+$config['base_url']	= "http://localhost/yourtitle/";
 ```
